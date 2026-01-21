@@ -1,9 +1,8 @@
-### ☁️ Project 3: Azure Storage Account (Free Tier)
+### ☁️ Project 3: Azure Storage Account 
 
 ## 📌 Project Description
 
 This project demonstrates how to create and manage an Azure Storage Account using the Azure Portal. A resource group was created, a storage account was added, a Blob container was created, and a sample file was uploaded. Finally, the resource group was deleted to ensure zero cost.  
-
 
 
 ## 🔧 Tools Used
@@ -15,7 +14,7 @@ This project demonstrates how to create and manage an Azure Storage Account usin
 
 ### 🧩 Step-by-Step Implementation
 
-### ✅ Step 1: Create Resource Group (if not already)
+### ✅ Step 1: Create Resource Group 
 
 Resource Group Name: rg-azure-storage-demo
 
@@ -25,11 +24,16 @@ Region: UK South
 
 Go to Storage Accounts → Create
 
-Subscription :	Default
+Subscription :	Azure subscription 1
+
 Resource Group:	rg-azure-storage-demo
+
 Storage Account Name:	stazuredemo01
+
 Region:	UK South
+
 Performance:	Standard
+
 Redundancy:	LRS (Locally Redundant Storage)
 
 Click Review + Create → Create
@@ -47,7 +51,7 @@ File Share
 Tables
 Queues
 
-✅ Step 4: Upload Sample File (Optional)
+✅ Step 4: Upload Sample File 
 
 Go to Blob → Containers → + Container
 
@@ -55,7 +59,7 @@ Name: test-container
 
 Access level: Private
 
-Upload a small text file (for demo)
+Upload a text file
 
 File uploaded in container
 
@@ -72,24 +76,25 @@ Type resource group name → Confirm
 ## 📸 Screenshots
 
 ### 🔹 Storage Account Overview
-![Storage Account Overview](storage-account-overview.png)
+![Storage Account Overview](screenshots/storage-account-overview.png)
 
 ### 🔹 Blob Container Created
-![Blob Container](blob-container.png)
+![Blob Container](screenshots/blob-container.png)
 
 ### 🔹 Sample File Uploaded
-![File Uploaded](file-uploaded.png)
+![File Uploaded](screenshots/file-uploaded.png)
 
 ### 🔹 Resource Group Deleted
-![Resource Group Deleted](resource-group-deleted.png)
+![Resource Group Deleted](screenshots/resource-group-deleted.png)
 
 
 ## Skills Learned
 - Azure Storage Account creation  
 - Blob storage and file upload  
 - Resource Group management  
-- Cost control using Free Tier  
+
 - Basic cloud storage operations  
 
 ---
+
 
